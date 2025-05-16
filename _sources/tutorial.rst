@@ -9,6 +9,7 @@ PyVista Tutorial
    :hidden:
 
    tutorial/00_jupyter/index
+   tutorial/05_action/index
 
 Welcome to the PyVista Tutorial!
 
