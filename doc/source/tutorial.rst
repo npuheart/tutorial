@@ -8,16 +8,16 @@ PyVista Tutorial
    :caption: Lessons
    :hidden:
 
-   tutorial/00_intro/index
+   .. tutorial/00_intro/index
    tutorial/00_jupyter/index
-   tutorial/01_basic/index
-   tutorial/02_mesh/index
-   tutorial/03_figures/index
-   tutorial/04_filters/index
-   tutorial/05_action/index
-   tutorial/06_vtk/index
-   tutorial/08_widgets/index
-   tutorial/09_trame/index
+   .. tutorial/01_basic/index
+   .. tutorial/02_mesh/index
+   .. tutorial/03_figures/index
+   .. tutorial/04_filters/index
+   .. tutorial/05_action/index
+   .. tutorial/06_vtk/index
+   .. tutorial/08_widgets/index
+   .. tutorial/09_trame/index
 
 Welcome to the PyVista Tutorial!
 
