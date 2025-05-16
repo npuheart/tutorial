@@ -12,6 +12,7 @@ PyVista Tutorial
 
 Welcome to PyVista's tutorial!
 See :cite:`Strunk1979` for an introduction to stylish writing.
+Also see :cite:`ma2024unconditionally`
 
 Here you can find all the resources to be up and running with PyVista in no
 time. Feel free to reference our dedicated documentation at `PyVista
