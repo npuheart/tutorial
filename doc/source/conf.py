@@ -53,7 +53,7 @@ author = "PyVista Developers"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "myst-parser",
+    "myst_parser",
     "atsphinx.mini18n",
     "sphinx_design",
     "jupyter_sphinx",
