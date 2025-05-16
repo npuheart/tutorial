@@ -8,6 +8,7 @@ PyVista Tutorial
    getting-started
    tutorial
    markdown
+   cardiac-perfusion
 
 Welcome to PyVista's tutorial!
 
