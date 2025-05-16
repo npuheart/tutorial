@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:02.037** total execution time for 1 file **from tutorial/00_jupyter**:
+**00:02.056** total execution time for 1 file **from tutorial/00_jupyter**:
 
 .. container::
 
@@ -33,5 +33,5 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_tutorial_00_jupyter_jupyter.py` (``jupyter.py``)
-     - 00:02.037
+     - 00:02.056
      - 0.0

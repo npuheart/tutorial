@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:02.037** total execution time for 2 files **from all galleries**:
+**00:02.057** total execution time for 2 files **from all galleries**:
 
 .. container::
 
@@ -33,7 +33,7 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_tutorial_00_jupyter_jupyter.py` (``../../tutorial/00_jupyter/jupyter.py``)
-     - 00:02.037
+     - 00:02.056
      - 0.0
    * - :ref:`sphx_glr_tutorial_10_poroelasticity_a.py` (``../../tutorial/10_poroelasticity/a.py``)
      - 00:00.000
