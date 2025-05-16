@@ -11,6 +11,7 @@ PyVista Tutorial
    cardiac-perfusion
 
 Welcome to PyVista's tutorial!
+See :cite:`Strunk1979` for an introduction to stylish writing.
 
 Here you can find all the resources to be up and running with PyVista in no
 time. Feel free to reference our dedicated documentation at `PyVista
@@ -168,3 +169,8 @@ domain.
    <https://github.com/nschloe/meshio>`_.
 3. Advanced users will be familiar with GUI frameworks like Qt, VTK, and
    advanced data science.
+
+
+
+
+.. bibliography::
