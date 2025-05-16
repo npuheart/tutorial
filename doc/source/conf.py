@@ -53,6 +53,7 @@ author = "PyVista Developers"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    "myst-parser",
     "atsphinx.mini18n",
     "sphinx_design",
     "jupyter_sphinx",
@@ -76,6 +77,11 @@ intersphinx_mapping = {
     "pyvistaqt": ("https://qtdocs.pyvista.org/", None),
 }
 
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates", get_template_dir()]
