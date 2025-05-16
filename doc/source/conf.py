@@ -257,7 +257,7 @@ html_sidebars = {
 
 # atsphinx.mini18n configuration
 mini18n_default_language = "en"
-mini18n_support_languages = ["en", "ja"]
+mini18n_support_languages = ["en", "cn"]
 
 
 def setup(app) -> None:
