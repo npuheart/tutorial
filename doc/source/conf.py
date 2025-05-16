@@ -211,6 +211,7 @@ tutorial_dirs = [
     # '../../tutorial/07_sphinx/',
     # "../../tutorial/08_widgets/",
     # "../../tutorial/09_trame/",
+    "../../tutorial/10_poroelasticity/",
 ]
 
 sphinx_gallery_conf = {
