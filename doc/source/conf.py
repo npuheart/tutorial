@@ -86,6 +86,7 @@ source_suffix = {
 
 
 bibtex_bibfiles = ['references.bib']
+bibtex_reference_style = 'number'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates", get_template_dir()]
