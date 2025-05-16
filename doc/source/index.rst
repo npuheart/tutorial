@@ -8,6 +8,7 @@ PyVista Tutorial
    getting-started
    tutorial
    markdown
+   code
 
 Welcome to PyVista's tutorial!
 
