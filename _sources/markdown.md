@@ -19,3 +19,7 @@ You can also add prefix and suffix {cite:p}`{see}Strunk1979{fig 1}`.
    tutorial/00_jupyter/index
    tutorial/05_action/index
    tutorial/10_poroelasticity/index
+
+
+
+.. bibliography::
