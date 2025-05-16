@@ -1,6 +1,6 @@
 ---
 bibliography:
-  - a.bib
+  - references.bib
 ---
 
 # Cardiac Perfusion Solver
