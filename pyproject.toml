@@ -1,6 +1,6 @@
 [project]
 dynamic = ['version']
-name = "pyvista-tutorial"
+name = "simcardiac-tutorial"
 requires-python = '>=3.9'
 
 [project.optional-dependencies]
@@ -46,37 +46,7 @@ docs = [
   'typed-ast==1.5.5',
   'typing_extensions==4.13.2',
   'vtk<9.5',
+  'myst-parser',
+  'sphinxcontrib-bibtex',
+  'linkify-it-py',
 ]
-
-[tool.ruff]
-exclude = ['.git', 'build', 'dist', 'doc/_build', 'doc/tutorial', 'pycache__']
-indent-width = 4
-line-length = 100
-lint.ignore = ["COM812", "D203", "D212", "E501", "ERA001", "ISC001"]
-lint.select = ["ALL"]
-
-[tool.ruff.lint.per-file-ignores]
-"doc/**" = ["ANN", "ARG", "D", "INP001"]
-"tutorial/**" = [
-  "ANN",
-  "ARG",
-  "B015",    # https://github.com/pyvista/pyvista/pull/6014
-  "B018",    # https://github.com/pyvista/pyvista/pull/6019
-  "D101",
-  "D102",
-  "D103",
-  "D107",
-  "D205",
-  "D400",
-  "D401",
-  "D415",
-  "E402",
-  "F704",
-  "INP001",
-  "NPY",
-  "PLE1142",
-]
-
-[tool.ruff.format]
-docstring-code-format = true
-quote-style = "preserve"

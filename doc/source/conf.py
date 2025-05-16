@@ -42,9 +42,9 @@ os.environ["PYVISTA_BUILDING_GALLERY"] = "true"
 
 # -- Project information -----------------------------------------------------
 
-project = "PyVista Tutorial"
-copyright = "2022, PyVista Developers"  # noqa: A001
-author = "PyVista Developers"
+project = "SimCardiac Tutorial"
+copyright = "2025, SimCardiac Developers"  # noqa: A001
+author = "Ma Pengfei, Wang Xuan"
 
 
 # -- General configuration ---------------------------------------------------
@@ -53,6 +53,8 @@ author = "PyVista Developers"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    "sphinxcontrib.bibtex",
+    "myst_parser",
     "atsphinx.mini18n",
     "sphinx_design",
     "jupyter_sphinx",
@@ -76,6 +78,32 @@ intersphinx_mapping = {
     "pyvistaqt": ("https://qtdocs.pyvista.org/", None),
 }
 
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
+
+myst_enable_extensions = [
+    "amsmath",
+    "attrs_inline",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "fieldlist",
+    "html_admonition",
+    "html_image",
+    "linkify",
+    "replacements",
+    "smartquotes",
+    "strikethrough",
+    "substitution",
+    "tasklist",
+]
+
+bibtex_bibfiles = ['references.bib']
+bibtex_reference_style = "author_year"
+bibtex_default_style = 'plain'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates", get_template_dir()]
@@ -114,39 +142,39 @@ html_use_smartypants = True
 #
 html_theme = "sphinx_book_theme"
 html_context = {
-    "github_user": "pyvista",
-    "github_repo": "pyvista-tutorial",
+    "github_user": "npuheart",
+    "github_repo": "tutorial",
     "github_version": "main",
     "doc_path": "doc",
 }
-html_logo = "./_static/pyvista_logo_sm.png"
+html_logo = "./_static/simcardiac_logo_sm.png"
 
 html_theme_options = {
     # 'default_mode': 'light',
     # 'google_analytics_id': '',
     "show_prev_next": True,
-    "github_url": "https://github.com/pyvista/pyvista-tutorial",
+    "github_url": "https://github.com/npuheart/tutorial",
     "icon_links": [
         {
             "name": "Support",
-            "url": "https://github.com/pyvista/pyvista/discussions",
+            "url": "https://github.com/npuheart/npuheart/discussions",
             "icon": "fa fa-comment fa-fw",
         },
         {
             "name": "Docs",
-            "url": "https://docs.pyvista.org/",
+            "url": "https://npuheart.github.io/tutorial/",
             "icon": "fa fa-book fa-fw",
         },
         {
             "name": "Contributing",
-            "url": "https://github.com/pyvista/pyvista/blob/main/CONTRIBUTING.rst",
+            "url": "https://github.com/npuheart/tutorial/blob/main/CONTRIBUTING.rst",
             "icon": "fa fa-gavel fa-fw",
         },
-        {
-            "name": "The Paper",
-            "url": "https://doi.org/10.21105/joss.01450",
-            "icon": "fa fa-file-text fa-fw",
-        },
+        # {
+        #     "name": "The Paper",
+        #     "url": "https://npuheart.github.io/tutorial/",
+        #     "icon": "fa fa-file-text fa-fw",
+        # },
     ],
     "navigation_with_keys": False,
     "show_navbar_depth": 1,
@@ -194,17 +222,18 @@ class ResetPyVista:
 from sphinx_gallery.sorting import FileNameSortKey  # noqa: E402
 
 tutorial_dirs = [
-    "../../tutorial/00_intro/",
+    # "../../tutorial/00_intro/",
     "../../tutorial/00_jupyter/",
-    "../../tutorial/01_basic/",
+    # "../../tutorial/01_basic/",
     "../../tutorial/02_mesh/",
-    "../../tutorial/03_figures/",
-    "../../tutorial/04_filters/",
+    # "../../tutorial/03_figures/",
+    # "../../tutorial/04_filters/",
     "../../tutorial/05_action/",
-    "../../tutorial/06_vtk/",
+    # "../../tutorial/06_vtk/",
     # '../../tutorial/07_sphinx/',
-    "../../tutorial/08_widgets/",
-    "../../tutorial/09_trame/",
+    # "../../tutorial/08_widgets/",
+    # "../../tutorial/09_trame/",
+    "../../tutorial/10_poroelasticity/",
 ]
 
 sphinx_gallery_conf = {
@@ -228,8 +257,8 @@ sphinx_gallery_conf = {
     "doc_module": "pyvista",
     "image_scrapers": (DynamicScraper(), "matplotlib"),
     "binder": {
-        "org": "pyvista",
-        "repo": "pyvista-tutorial",
+        "org": "npuheart",
+        "repo": "tutorial",
         "branch": "gh-pages",
         "binderhub_url": "https://mybinder.org",
         "dependencies": ["../../Dockerfile", "../../start"],
@@ -250,7 +279,7 @@ html_sidebars = {
 
 # atsphinx.mini18n configuration
 mini18n_default_language = "en"
-mini18n_support_languages = ["en", "ja"]
+mini18n_support_languages = ["en", "cn"]
 
 
 def setup(app) -> None:
