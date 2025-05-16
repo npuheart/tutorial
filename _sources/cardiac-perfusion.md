@@ -1,6 +1,6 @@
 ---
 bibliography:
-  - a.bib
+  - references.bib
 ---
 
 # Cardiac Perfusion Solver
@@ -10,6 +10,6 @@ bibliography:
 ## 冠状动脉求解
 
 
-
+[Cockett, 2022](https://doi.org/10.5281/zenodo.6476040)
 
 [poroelasticity](tutorial/10_poroelasticity/index)

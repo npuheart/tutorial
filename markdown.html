@@ -394,7 +394,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -410,6 +412,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sphinx-markdown">在 Sphinx 中加入 markdown 格式的支持，参考了下面的文献</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -421,12 +431,21 @@ document.write(`
                   
   <section id="markdown">
 <h1>这是一个markdown文档<a class="headerlink" href="#markdown" title="Link to this heading">#</a></h1>
+<section id="sphinx-markdown">
+<h2>在 Sphinx 中加入 markdown 格式的支持，参考了下面的文献<a class="headerlink" href="#sphinx-markdown" title="Link to this heading">#</a></h2>
 <ul class="simple">
-<li><p>在 Sphinx 中加入 markdown 格式的支持，参考了下面的文献
-https://blog.csdn.net/whahu1989/article/details/140307613
-https://www.sphinx-doc.org/en/master/usage/markdown.html
-https://myst-parser.readthedocs.io/en/latest/syntax/optional.html</p></li>
+<li><p>https://blog.csdn.net/whahu1989/article/details/140307613</p></li>
+<li><p>https://www.sphinx-doc.org/en/master/usage/markdown.html</p></li>
+<li><p>https://myst-parser.readthedocs.io/en/latest/syntax/optional.html</p></li>
 </ul>
+<p>.. toctree::
+:maxdepth: 2
+:caption: Lessons
+:hidden:</p>
+<p>tutorial/00_jupyter/index
+tutorial/05_action/index
+tutorial/10_poroelasticity/index</p>
+</section>
 </section>
 
 
@@ -464,6 +483,21 @@ https://myst-parser.readthedocs.io/en/latest/syntax/optional.html</p></li>
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sphinx-markdown">在 Sphinx 中加入 markdown 格式的支持，参考了下面的文献</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
