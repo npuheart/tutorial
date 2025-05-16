@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>PyVista Tutorial &#8212; PyVista Tutorial</title>
+    <title>目录 &#8212; PyVista Tutorial</title>
   
   
   
@@ -63,7 +63,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Getting Started" href="getting-started.html" />
+    <link rel="next" title="使用教程" href="3-tutorial.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -258,18 +258,24 @@
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="getting-started.html">Getting Started</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="tutorial.html">PyVista Tutorial</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="3-tutorial.html">使用教程</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2 has-children"><a class="reference internal" href="tutorial/00_jupyter/index.html">Using PyVista in Jupyter</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="tutorial/00_jupyter/jupyter.html">Test out PyVista’s Jupyter Backend</a></li>
 </ul>
 </details></li>
 <li class="toctree-l2"><a class="reference internal" href="tutorial/05_action/index.html">PyVista in Action</a></li>
-<li class="toctree-l2"><a class="reference internal" href="tutorial/10_poroelasticity/a.html">PyVista and VTK Together</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1"><a class="reference internal" href="markdown.html">这是一个markdown文档</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cardiac-perfusion.html">Cardiac Perfusion Solver</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="4-cardiac-perfusion.html">Cardiac Perfusion Solver</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="tutorial/10_poroelasticity/index.html">一级标题</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="tutorial/10_poroelasticity/a.html">PyVista and VTK Together</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="5-markdown.html">这是一个markdown文档</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="9-references.html">参考文献</a></li>
 </ul>
 
     </div>
@@ -395,9 +401,7 @@ document.write(`
   </button>
 `);
 </script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</button>
+
 </div></div>
       
     </div>
@@ -408,30 +412,11 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>PyVista Tutorial</h1>
+    <h1>目录</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-links">Quick Links</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-gallery">Example Gallery</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pyvista-overview">PyVista Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tutorial-description">Tutorial Description</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructor-bios">Instructor Bios</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#alexander-kaszynski">Alexander Kaszynski</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bane-sullivan">Bane Sullivan</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tetsuo-koyama">Tetsuo Koyama</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bill-little">Bill Little</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tutorial-prerequisites">Tutorial Prerequisites</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -441,182 +426,10 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="pyvista-tutorial">
-<h1>PyVista Tutorial<a class="headerlink" href="#pyvista-tutorial" title="Link to this heading">#</a></h1>
+  <section id="id1">
+<h1>目录<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
 <div class="toctree-wrapper compound">
 </div>
-<p>Welcome to PyVista’s tutorial!
-See <span id="id1">[<a class="reference internal" href="#id13" title="William Strunk, Jr. and E. B. White. The Elements of Style. Macmillan, third edition, 1979.">Strunk and White, 1979</a>]</span> for an introduction to stylish writing.
-Also see <span id="id2">[<a class="reference internal" href="#id14" title="Pengfei Ma, Li Cai, Xuan Wang, Yongheng Wang, Xiaoyu Luo, and Hao Gao. An unconditionally stable scheme for the immersed boundary method with application in cardiac mechanics. Physics of Fluids, 36(8):081914, 2024.">Ma <em>et al.</em>, 2024</a>]</span>
-This is a parenthetical citation <span id="id3">[<a class="reference internal" href="#id13" title="William Strunk, Jr. and E. B. White. The Elements of Style. Macmillan, third edition, 1979.">Strunk and White, 1979</a>]</span>.
-You can also use a narrative citation with <span id="id4">[<a class="reference internal" href="#id13" title="William Strunk, Jr. and E. B. White. The Elements of Style. Macmillan, third edition, 1979.">Strunk and White, 1979</a>]</span>.
-You can also use a narrative citation with <span id="id5">[<a class="reference internal" href="#id215" title="H Carter Edwards, Christian R Trott, and Daniel Sunderland. Kokkos: enabling manycore performance portability through polymorphic memory access patterns. Journal of parallel and distributed computing, 74(12):3202–3216, 2014.">Edwards <em>et al.</em>, 2014</a>]</span>.</p>
-<p>Here you can find all the resources to be up and running with PyVista in no
-time. Feel free to reference our dedicated documentation at <a class="reference external" href="https://docs.pyvista.org/">PyVista
-Documentation</a></p>
-<div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-0">
-JupyterLab</label><div class="sd-tab-content docutils">
-<p>Here’s a quick demo of PyVista running within <a class="reference external" href="https://jupyter.org/">Jupyterlab</a>.</p>
-<video width="100%" height="auto" controls autoplay muted>
-  <source src="_static/pyvista_jupyterlab_demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video></div>
-<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-1">
-IPython</label><div class="sd-tab-content docutils">
-<p>Here’s a quick demo of PyVista running within a terminal using <a class="reference external" href="https://ipython.org/">IPython</a>.</p>
-<video width="100%" height="auto" controls autoplay muted>
-  <source src="_static/pyvista_ipython_demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video></div>
-</div>
-<section id="quick-links">
-<h2>Quick Links<a class="headerlink" href="#quick-links" title="Link to this heading">#</a></h2>
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-body docutils">
-<div class="sd-card-title sd-font-weight-bold pyvista-card-title docutils">
-Tutorial</div>
-<p class="sd-card-text">Jump right to the tutorial content.</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">pyvista</span><span class="w"> </span><span class="kn">import</span> <span class="n">examples</span>
-<span class="n">dataset</span> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">download_saddle_surface</span><span class="p">()</span>
-<span class="n">dataset</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
-</pre></div>
-</div>
-<div class="sd-tab-set docutils">
-<input checked="checked" id="sd-tab-item-2" name="sd-tab-set-1" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-2">
-Static Scene</label><div class="sd-tab-content docutils">
-<figure class="align-default">
-<img alt="_images/index-1_00_00.png" src="_images/index-1_00_00.png" />
-</figure>
-</div>
-<input id="sd-tab-item-3" name="sd-tab-set-1" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-3">
-Interactive Scene</label><div class="sd-tab-content docutils">
-
-    <iframe src='_static/static_viewer.html?fileURL=../_images/plot_directive/index-1_00_00.vtksz' width='100%%' height='400px' frameborder='0'></iframe>
-</div>
-</div>
-</div>
-<a class="sd-stretched-link sd-hide-link-text reference internal" href="tutorial.html#tutorial"><span class="std std-ref">PyVista Tutorial</span></a></div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
-<div class="sd-card-body docutils">
-<div class="sd-card-title sd-font-weight-bold pyvista-card-title docutils">
-Installation and Getting Started</div>
-<p class="sd-card-text">Get PyVista setup on your environment.</p>
-<script async id="asciicast-507562" 
-                src="https://asciinema.org/a/507562.js"></script></div>
-<a class="sd-stretched-link sd-hide-link-text reference internal" href="getting-started.html#getting-started"><span class="std std-ref">Getting Started</span></a></div>
-</div>
-</div>
-</div>
-</section>
-<section id="example-gallery">
-<h2>Example Gallery<a class="headerlink" href="#example-gallery" title="Link to this heading">#</a></h2>
-<p>Click below for our extensive example gallery!</p>
-<a class="reference external image-reference" href="http://docs.pyvista.org/examples/index.html"><img alt="_images/pyvista_banner.png" src="_images/pyvista_banner.png" />
-</a>
-</section>
-<section id="pyvista-overview">
-<h2>PyVista Overview<a class="headerlink" href="#pyvista-overview" title="Link to this heading">#</a></h2>
-<p><a class="reference external" href="https://github.com/pyvista/pyvista">PyVista</a> is a general purpose 3D visualization library used for over 500+ open source projects and many closed source projects for the visualization of everything from <a class="reference external" href="https://dev.pyvista.org/getting-started/external_examples.html">computer aided engineering and geophysics to volcanoes and digital artwork</a>.</p>
-<p>PyVista exposes a Pythonic API to the <a class="reference external" href="http://www.vtk.org">Visualization Toolkit (VTK)</a> to provide tooling that is immediately usable without any prior knowledge of VTK and is being built as the 3D equivalent of <a class="reference external" href="https://matplotlib.org/">Matplotlib</a>, with plugins to <a class="reference external" href="https://jupyter.org/">Jupyter</a> to enable visualization of 3D data using both server and client-side rendering.</p>
-<p>We will provide a hands-on tutorial accessible to anyone with internet access and a computer via many of PyVista’s existing <a class="reference external" href="https://docs.pyvista.org/examples/index.html">example Jupyter notebooks</a> and new material through a comprehensive overview highlighting popular 3D visualization use cases.</p>
-</section>
-<section id="tutorial-description">
-<h2>Tutorial Description<a class="headerlink" href="#tutorial-description" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>Use PyVista to create 3D visualizations from a variety of datasets in common
-formats.</p></li>
-<li><p>Overview the classes and data structures of PyVista with real-world examples.</p></li>
-<li><p>Be familiar with the various filters and features of PyVista.</p></li>
-<li><p>Know which Python libraries are used and can be used by PyVista (meshio,
-trimesh etc).</p></li>
-</ul>
-<p>We see this tutorial catering to anyone who wants to visualize data in any
-domain, and this ranges from basic Python users to advanced power users.</p>
-<ol class="arabic simple">
-<li><p>Basic knowledge of Python to get started. Be able to install Jupyter Lab on
-your machine and be up and running.</p></li>
-<li><p>Intermediate users will want to be familiar with <a class="reference external" href="https://numpy.org/">NumPy</a> and other libraries that are compatible with PyVista,
-like <a class="reference external" href="https://trimsh.org/examples.html">trimesh</a> or <a class="reference external" href="https://github.com/nschloe/meshio">meshio</a>.</p></li>
-<li><p>Advanced users should be familiar with the Visualization Toolkit (VTK), general
-data science, and GUI frameworks like Qt.</p></li>
-</ol>
-</section>
-<section id="instructor-bios">
-<h2>Instructor Bios<a class="headerlink" href="#instructor-bios" title="Link to this heading">#</a></h2>
-<section id="alexander-kaszynski">
-<h3>Alexander Kaszynski<a class="headerlink" href="#alexander-kaszynski" title="Link to this heading">#</a></h3>
-<p><a class="reference external" href="https://github.com/akaszynski/resume">Alex Kaszynski</a>, co-creator of PyVista
-and creator of the <a class="reference external" href="https://github.com/pyansys">PyAnsys</a> organization.</p>
-<p>Advocate for all things open source and has contributed to the creation of
-Ansys’s open source projects at <a class="reference external" href="https://ansys.github.io/">Ansys</a> and
-<a class="reference external" href="https://https://github.com/pyansys/pymapdl">PyMAPDL</a>. Enjoys presenting and
-demoing Python, especially 3D visualization but also its application to CAE and
-automation.</p>
-</section>
-<section id="bane-sullivan">
-<h3>Bane Sullivan<a class="headerlink" href="#bane-sullivan" title="Link to this heading">#</a></h3>
-<p><a class="reference external" href="https://banesullivan.com">Bane Sullivan</a>, co-creator of PyVista, is a Research Software Engineer working at the intersection of geoscience, visualization, and data science.</p>
-<p>Bane is a geophysicist/hydrologist by training and has been working to grow PyVista’s adoption within the subsurface geoscience communities, previously presenting PyVista at <a class="reference external" href="https://www.youtube.com/watch?v=FmNmRBsEBHE">Transform 2021</a>.</p>
-</section>
-<section id="tetsuo-koyama">
-<h3>Tetsuo Koyama<a class="headerlink" href="#tetsuo-koyama" title="Link to this heading">#</a></h3>
-<p><a class="reference external" href="https://github.com/tkoyama010">Tetsuo Koyama</a> is interested in scientific computing and visualization with computer graphics.
-Developer team member of PyVista.
-Past experience as a speaker:</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://youtu.be/6JuB1GiDLQQ">PyConJP 2019 speaker “Introduction to FEM Analysis with Python”</a></p></li>
-<li><p><a class="reference external" href="https://youtu.be/X3Z54Kw4I6Y">PyConJP 2020 speaker “How to plot unstructured mesh file on Jupyter Notebook”</a></p></li>
-<li><p><a class="reference external" href="https://youtu.be/epxm9SjLMS0">SciPy Japan 2020 speaker “Translation Project of Mayavi2 documents”</a></p></li>
-<li><p><a class="reference external" href="https://youtu.be/ru-nENLgleo">PyConJP 2021 speaker “Visualize 3D scientific data in a Pythonic way like Matplotlib”</a></p></li>
-</ul>
-</section>
-<section id="bill-little">
-<h3>Bill Little<a class="headerlink" href="#bill-little" title="Link to this heading">#</a></h3>
-<p><a class="reference external" href="https://github.com/bjlittle">Bill Little</a>, creator of <a class="reference external" href="https://github.com/bjlittle/geovista">GeoVista</a>, is a software engineer working at the <a class="reference external" href="https://www.metoffice.gov.uk">UK Met Office</a> and a core developer on <a class="reference external" href="https://github.com/orgs/SciTools/repositories">SciTools</a>, which includes <a class="reference external" href="https://github.com/SciTools/cartopy">Cartopy</a> and <a class="reference external" href="https://github.com/SciTools/iris">Iris</a>.</p>
-</section>
-</section>
-<section id="tutorial-prerequisites">
-<h2>Tutorial Prerequisites<a class="headerlink" href="#tutorial-prerequisites" title="Link to this heading">#</a></h2>
-<p>We see this tutorial catering to anyone who wants to visualize data in any
-domain, and this ranges from basic Python users to advanced power users.  In
-fact, our tutorial instructors and community members are involved in any
-domain.</p>
-<ol class="arabic simple">
-<li><p>Basic knowledge of Python to get started. Be able to install Jupyter Lab on
-your machine and be up and running.</p></li>
-<li><p>Intermediate users will want to be familiar with <a class="reference external" href="https://numpy.org/">NumPy</a> and other libraries that are compatible with PyVista,
-like <a class="reference external" href="https://trimsh.org/examples.html">trimesh</a> or <a class="reference external" href="https://github.com/nschloe/meshio">meshio</a>.</p></li>
-<li><p>Advanced users will be familiar with GUI frameworks like Qt, VTK, and
-advanced data science.</p></li>
-</ol>
-<div class="docutils container" id="id12">
-<div role="list" class="citation-list">
-<div class="citation" id="id215" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id5">ETS14</a><span class="fn-bracket">]</span></span>
-<p>H Carter Edwards, Christian R Trott, and Daniel Sunderland. Kokkos: enabling manycore performance portability through polymorphic memory access patterns. <em>Journal of parallel and distributed computing</em>, 74(12):3202–3216, 2014.</p>
-</div>
-<div class="citation" id="id14" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">MCW+24</a><span class="fn-bracket">]</span></span>
-<p>Pengfei Ma, Li Cai, Xuan Wang, Yongheng Wang, Xiaoyu Luo, and Hao Gao. An unconditionally stable scheme for the immersed boundary method with application in cardiac mechanics. <em>Physics of Fluids</em>, 36(8):081914, 2024.</p>
-</div>
-<div class="citation" id="id13" role="doc-biblioentry">
-<span class="label"><span class="fn-bracket">[</span>SW79<span class="fn-bracket">]</span></span>
-<span class="backrefs">(<a role="doc-backlink" href="#id1">1</a>,<a role="doc-backlink" href="#id3">2</a>,<a role="doc-backlink" href="#id4">3</a>)</span>
-<p>William Strunk, Jr. and E. B. White. <em>The Elements of Style</em>. Macmillan, third edition, 1979.</p>
-</div>
-</div>
-</div>
-</section>
 </section>
 
 
@@ -631,11 +444,11 @@ advanced data science.</p></li>
                   
 <div class="prev-next-area">
     <a class="right-next"
-       href="getting-started.html"
+       href="3-tutorial.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Getting Started</p>
+        <p class="prev-next-title">使用教程</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -645,32 +458,6 @@ advanced data science.</p></li>
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-links">Quick Links</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-gallery">Example Gallery</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pyvista-overview">PyVista Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tutorial-description">Tutorial Description</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#instructor-bios">Instructor Bios</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#alexander-kaszynski">Alexander Kaszynski</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bane-sullivan">Bane Sullivan</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tetsuo-koyama">Tetsuo Koyama</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bill-little">Bill Little</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tutorial-prerequisites">Tutorial Prerequisites</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
               
             
           </div>
