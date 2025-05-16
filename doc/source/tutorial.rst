@@ -62,28 +62,6 @@ This section aims to list companies with VTK/PyVista expertise who can help you 
 Tutorial Overview
 ~~~~~~~~~~~~~~~~~
 
-+-----------------+-----------------------------------------------------------------------------------------------------------------------+
-| **Lesson**      | **Description**                                                                                                       |
-+-----------------+-----------------------------------------------------------------------------------------------------------------------+
-| :ref:`intro`    | Introduction - Using PyVista for 3D Visualization within Python.                                                      |
-+-----------------+-----------------------------------------------------------------------------------------------------------------------+
-| :ref:`jupyter`  | Using PyVista in Jupyter.                                                                                             |
-+-----------------+-----------------------------------------------------------------------------------------------------------------------+
-| :ref:`basic`    | Reading and plotting 3D data using the `pyvista.examples`_ module and external files.                                 |
-+-----------------+-----------------------------------------------------------------------------------------------------------------------+
-| :ref:`mesh`     | Learn the basics of the PyVista data types and how to open common 3D file formats to visualize the data in 3D.        |
-+-----------------+-----------------------------------------------------------------------------------------------------------------------+
-| :ref:`figures`  | Demonstrate many features of the PyVista plotting API to create compelling 3D visualizations and touch on animations. |
-+-----------------+-----------------------------------------------------------------------------------------------------------------------+
-| :ref:`filters`  | Demonstrate the PyVista filters API to perform mesh analysis and alteration.                                          |
-+-----------------+-----------------------------------------------------------------------------------------------------------------------+
-| :ref:`action`   | Show how PyVista is already being used within several projects and can be used for all things visualization.          |
-+-----------------+-----------------------------------------------------------------------------------------------------------------------+
-| :ref:`trame`    | Leverage PyVista and Trame to make awesome interactive web applications.                                              |
-+-----------------+-----------------------------------------------------------------------------------------------------------------------+
-| :ref:`vtk`      | Show how PyVista uses VTK and how you can combine the best of both worlds!                                            |
-+-----------------+-----------------------------------------------------------------------------------------------------------------------+
-
 
 .. |discuss| image:: https://img.shields.io/badge/GitHub-Discussions-green?logo=github
    :target: https://github.com/pyvista/pyvista/discussions
