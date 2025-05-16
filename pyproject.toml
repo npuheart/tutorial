@@ -47,6 +47,7 @@ docs = [
   'typing_extensions==4.13.2',
   'vtk<9.5',
   'myst-parser',
+  'sphinxcontrib-bibtex',
 ]
 
 [tool.ruff]
