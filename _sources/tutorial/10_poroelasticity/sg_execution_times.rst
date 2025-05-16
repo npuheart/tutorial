@@ -1,12 +1,12 @@
 
 :orphan:
 
-.. _sphx_glr_tutorial_00_jupyter_sg_execution_times:
+.. _sphx_glr_tutorial_10_poroelasticity_sg_execution_times:
 
 
 Computation times
 =================
-**00:02.070** total execution time for 1 file **from tutorial/00_jupyter**:
+**00:00.000** total execution time for 1 file **from tutorial/10_poroelasticity**:
 
 .. container::
 
@@ -32,6 +32,6 @@ Computation times
    * - Example
      - Time
      - Mem (MB)
-   * - :ref:`sphx_glr_tutorial_00_jupyter_jupyter.py` (``jupyter.py``)
-     - 00:02.070
+   * - :ref:`sphx_glr_tutorial_10_poroelasticity_a.py` (``a.py``)
+     - 00:00.000
      - 0.0

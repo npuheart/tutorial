@@ -10,6 +10,7 @@ PyVista Tutorial
 
    tutorial/00_jupyter/index
    tutorial/05_action/index
+   tutorial/10_poroelasticity/index
 
 Welcome to the PyVista Tutorial!
 
