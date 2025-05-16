@@ -6,7 +6,6 @@ bibliography:
 # Cardiac Perfusion Solver
 
 由 @holdgraf_evidence_2014 提出的方法
-{cite:t}`holdgraf_evidence_2014`.
 
 ## 冠状动脉求解
 
