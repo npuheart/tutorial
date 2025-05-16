@@ -12,4 +12,8 @@ bibliography:
 
 [Cockett, 2022](https://doi.org/10.5281/zenodo.6476040)
 
-[poroelasticity](tutorial/10_poroelasticity/index)
+
+```{toctree}
+tutorial/10_poroelasticity/index
+```
+
