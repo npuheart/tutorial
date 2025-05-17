@@ -10,6 +10,9 @@
 
 
 ```{toctree}
+:maxdepth: 2
+:hidden:
+4-cardiac-perfusion/index
 tutorial/10_poroelasticity/index
 ```
 
