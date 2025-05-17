@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:02.036** total execution time for 2 files **from all galleries**:
+**00:02.035** total execution time for 2 files **from all galleries**:
 
 .. container::
 

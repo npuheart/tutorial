@@ -2,13 +2,13 @@
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="../../" >
+<html lang="en" data-content_root="./" >
 
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Computation times &#8212; PyVista Tutorial</title>
+    <title>流固耦合 &#8212; PyVista Tutorial</title>
   
   
   
@@ -18,51 +18,53 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
   
-  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=d75fae25" />
-    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=eba8b062" />
-    <link rel="stylesheet" type="text/css" href="../../_static/jupyter-sphinx.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/thebelab.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../../_static/asciinema-player_3.6.3.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/no_search_highlight.css?v=4b20ffad" />
-    <link rel="stylesheet" type="text/css" href="../../_static/fontawesome/css/all.css?v=1500ccdc" />
-    <link rel="stylesheet" type="text/css" href="../../_static/table.css?v=f9b2bc2b" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css?v=d2d258e8" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css?v=f4aeca0c" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-rendered-html.css?v=1277b6f3" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../../_static/cards.css?v=90395a4f" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d75fae25" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="_static/thebelab.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/asciinema-player_3.6.3.css" />
+    <link rel="stylesheet" type="text/css" href="_static/no_search_highlight.css?v=4b20ffad" />
+    <link rel="stylesheet" type="text/css" href="_static/fontawesome/css/all.css?v=1500ccdc" />
+    <link rel="stylesheet" type="text/css" href="_static/table.css?v=f9b2bc2b" />
+    <link rel="stylesheet" type="text/css" href="_static/sg_gallery.css?v=d2d258e8" />
+    <link rel="stylesheet" type="text/css" href="_static/sg_gallery-binder.css?v=f4aeca0c" />
+    <link rel="stylesheet" type="text/css" href="_static/sg_gallery-dataframe.css?v=2082cf3c" />
+    <link rel="stylesheet" type="text/css" href="_static/sg_gallery-rendered-html.css?v=1277b6f3" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="_static/cards.css?v=90395a4f" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
-<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
-  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="../../_static/doctools.js?v=9bcbadda"></script>
-    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="../../_static/thebelab-helper.js"></script>
-    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="../../_static/copybutton.js?v=49e1bf35"></script>
-    <script src="../../_static/asciinema-player_3.6.3.js"></script>
-    <script src="../../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
-    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/thebelab-helper.js"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=49e1bf35"></script>
+    <script src="_static/asciinema-player_3.6.3.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@^1.0.1/dist/embed-amd.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'tutorial/00_jupyter/sg_execution_times';</script>
-    <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = '4-fluid-structure-interaction';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="一级标题" href="tutorial/10_poroelasticity/index.html" />
+    <link rel="prev" title="PyVista in Action" href="tutorial/05_action/index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -94,7 +96,7 @@
     <div class="search-button__overlay"></div>
     <div class="search-button__search-container">
 <form class="bd-search d-flex align-items-center"
-      action="../../search.html"
+      action="search.html"
       method="get">
   <i class="fa-solid fa-magnifying-glass"></i>
   <input type="search"
@@ -125,8 +127,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -145,7 +145,7 @@
     
   
 
-<a class="navbar-brand logo" href="../../index.html">
+<a class="navbar-brand logo" href="index.html">
   
   
   
@@ -156,8 +156,8 @@
       
     
     
-    <img src="../../_static/pyvista_logo_sm.png" class="logo__image only-light" alt="PyVista Tutorial - Home"/>
-    <script>document.write(`<img src="../../_static/pyvista_logo_sm.png" class="logo__image only-dark" alt="PyVista Tutorial - Home"/>`);</script>
+    <img src="_static/pyvista_logo_sm.png" class="logo__image only-light" alt="PyVista Tutorial - Home"/>
+    <script>document.write(`<img src="_static/pyvista_logo_sm.png" class="logo__image only-dark" alt="PyVista Tutorial - Home"/>`);</script>
   
   
 </a></div>
@@ -237,9 +237,9 @@
                         document.cookie = `lang=${values[0]}; path=/; samesite=Strict; max-age=${60*60*24*400};`;
                         location.href=values[1];
                         }" id="atsphinx-mini18n-select-lang">
-      <option value="en@@../../../en/tutorial/00_jupyter/sg_execution_times.html"
+      <option value="en@@../en/4-fluid-structure-interaction.html"
         selected>en</option>
-      <option value="cn@@../../../cn/tutorial/00_jupyter/sg_execution_times.html">cn</option>
+      <option value="cn@@../cn/4-fluid-structure-interaction.html">cn</option>
     </select>
   </div>
 </div></div>
@@ -256,32 +256,32 @@
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        <ul class="nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../3-tutorial.html">使用教程</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2 has-children"><a class="reference internal" href="index.html">Using PyVista in Jupyter</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l3"><a class="reference internal" href="jupyter.html">Test out PyVista’s Jupyter Backend</a></li>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="3-tutorial.html">使用教程</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="tutorial/00_jupyter/index.html">Using PyVista in Jupyter</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="tutorial/00_jupyter/jupyter.html">Test out PyVista’s Jupyter Backend</a></li>
 </ul>
 </details></li>
-<li class="toctree-l2"><a class="reference internal" href="../05_action/index.html">PyVista in Action</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial/05_action/index.html">PyVista in Action</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../4-fluid-structure-interaction.html">流固耦合</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../10_poroelasticity/index.html">一级标题</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l3"><a class="reference internal" href="../10_poroelasticity/a.html">PyVista and VTK Together</a></li>
-</ul>
-</details></li>
-</ul>
-</details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../4-cardiac-perfusion.html">心肌灌注</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../10_poroelasticity/index.html">一级标题</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l3"><a class="reference internal" href="../10_poroelasticity/a.html">PyVista and VTK Together</a></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">流固耦合</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="tutorial/10_poroelasticity/index.html">一级标题</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="tutorial/10_poroelasticity/a.html">PyVista and VTK Together</a></li>
 </ul>
 </details></li>
 </ul>
 </details></li>
-<li class="toctree-l1"><a class="reference internal" href="../../5-markdown.html">这是一个markdown文档</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="4-cardiac-perfusion.html">心肌灌注</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="tutorial/10_poroelasticity/index.html">一级标题</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="tutorial/10_poroelasticity/a.html">PyVista and VTK Together</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="5-markdown.html">这是一个markdown文档</a></li>
 
-<li class="toctree-l1"><a class="reference internal" href="../../9-references.html">参考文献</a></li>
+<li class="toctree-l1"><a class="reference internal" href="9-references.html">参考文献</a></li>
 </ul>
 
     </div>
@@ -336,7 +336,7 @@
       
       
       
-      <li><a href="../../_sources/tutorial/00_jupyter/sg_execution_times.rst" target="_blank"
+      <li><a href="_sources/4-fluid-structure-interaction.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -346,7 +346,7 @@
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.rst</span>
+<span class="btn__text-container">.md</span>
 </a>
 </li>
       
@@ -407,7 +407,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -418,11 +420,19 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Computation times</h1>
+    <h1>流固耦合</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">冠状动脉求解</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -432,37 +442,24 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="computation-times">
-<span id="sphx-glr-tutorial-00-jupyter-sg-execution-times"></span><h1>Computation times<a class="headerlink" href="#computation-times" title="Link to this heading">#</a></h1>
-<p><strong>00:02.035</strong> total execution time for 1 file <strong>from tutorial/00_jupyter</strong>:</p>
-<div class="docutils container">
-<style scoped>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
-<link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
-</style>
-<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
-<script type="text/javascript" class="init">
-$(document).ready( function () {
-    $('table.sg-datatable').DataTable({order: [[1, 'desc']]});
-} );
-</script><div class="pst-scrollable-table-container"><table class="table table-striped sg-datatable">
-<thead>
-<tr class="row-odd"><th class="head"><p>Example</p></th>
-<th class="head"><p>Time</p></th>
-<th class="head"><p>Mem (MB)</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p><a class="reference internal" href="jupyter.html#sphx-glr-tutorial-00-jupyter-jupyter-py"><span class="std std-ref">Test out PyVista’s Jupyter Backend</span></a> (<code class="docutils literal notranslate"><span class="pre">jupyter.py</span></code>)</p></td>
-<td><p>00:02.035</p></td>
-<td><p>0.0</p></td>
-</tr>
-</tbody>
-</table>
+  <section id="id1">
+<h1>流固耦合<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
+<p>由 &#64;holdgraf_evidence_2014 提出的方法</p>
+<section id="id2">
+<h2>冠状动脉求解<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://doi.org/10.5281/zenodo.6476040">Cockett, 2022</a></p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="tutorial/10_poroelasticity/index.html">一级标题</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tutorial/10_poroelasticity/index.html#id2">二级标题</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="tutorial/10_poroelasticity/index.html#id3">三级标题</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 </div>
-</div>
+</section>
 </section>
 
 
@@ -476,12 +473,45 @@ $(document).ready( function () {
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="tutorial/05_action/index.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">PyVista in Action</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="tutorial/10_poroelasticity/index.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">一级标题</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">冠状动脉求解</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
@@ -526,8 +556,8 @@ By PyVista Developers
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
-<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>

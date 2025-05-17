@@ -64,7 +64,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="参考文献" href="9-references.html" />
-    <link rel="prev" title="PyVista and VTK Together" href="tutorial/10_poroelasticity/a.html" />
+    <link rel="prev" title="心肌灌注" href="4-cardiac-perfusion.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -265,7 +265,14 @@
 <li class="toctree-l2"><a class="reference internal" href="tutorial/05_action/index.html">PyVista in Action</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="4-cardiac-perfusion.html">Cardiac Perfusion Solver</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="4-fluid-structure-interaction.html">流固耦合</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="tutorial/10_poroelasticity/index.html">一级标题</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="tutorial/10_poroelasticity/a.html">PyVista and VTK Together</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="4-cardiac-perfusion.html">心肌灌注</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2 has-children"><a class="reference internal" href="tutorial/10_poroelasticity/index.html">一级标题</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="tutorial/10_poroelasticity/a.html">PyVista and VTK Together</a></li>
 </ul>
@@ -425,9 +432,10 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">这是一个markdown文档</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sphinx-markdown">在 Sphinx 中加入 markdown 格式的支持，参考了下面的文献</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">加入参考文献</a></li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">算例</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">算例</a></li>
 </ul>
 
             </nav>
@@ -449,14 +457,19 @@ document.write(`
 <li><p>https://www.sphinx-doc.org/en/master/usage/markdown.html</p></li>
 <li><p>https://myst-parser.readthedocs.io/en/latest/syntax/optional.html</p></li>
 </ul>
-<p>This is a parenthetical citation <span id="id1">[<a class="reference internal" href="9-references.html#id6" title="William Strunk, Jr. and E. B. White. The Elements of Style. Macmillan, third edition, 1979.">Strunk and White, 1979</a>]</span>.
-You can also use a narrative citation with <span id="id2">Strunk and White [<a class="reference internal" href="9-references.html#id6" title="William Strunk, Jr. and E. B. White. The Elements of Style. Macmillan, third edition, 1979.">1979</a>]</span>.
-You can also use a narrative citation with <span id="id3">[<a class="reference internal" href="9-references.html#id208" title="H Carter Edwards, Christian R Trott, and Daniel Sunderland. Kokkos: enabling manycore performance portability through polymorphic memory access patterns. Journal of parallel and distributed computing, 74(12):3202–3216, 2014.">Edwards <em>et al.</em>, 2014</a>]</span>.
-You can also add prefix and suffix <span id="id4">[see <a class="reference internal" href="9-references.html#id6" title="William Strunk, Jr. and E. B. White. The Elements of Style. Macmillan, third edition, 1979.">Strunk and White, 1979</a>, fig 1]</span>.</p>
+</section>
+<section id="id1">
+<h2>加入参考文献<a class="headerlink" href="#id1" title="Link to this heading">#</a></h2>
+<p>https://sphinxcontrib-bibtex.readthedocs.io/en/latest/usage.html#known-issues-and-workarounds</p>
+<p>This is a parenthetical citation <span id="id2">[<a class="reference internal" href="9-references.html#id6" title="William Strunk, Jr. and E. B. White. The Elements of Style. Macmillan, third edition, 1979.">Strunk and White, 1979</a>]</span>.
+You can also use a narrative citation with <span id="id3">Strunk and White [<a class="reference internal" href="9-references.html#id6" title="William Strunk, Jr. and E. B. White. The Elements of Style. Macmillan, third edition, 1979.">1979</a>]</span>.
+You can also use a narrative citation with <span id="id4">[<a class="reference internal" href="9-references.html#id208" title="H Carter Edwards, Christian R Trott, and Daniel Sunderland. Kokkos: enabling manycore performance portability through polymorphic memory access patterns. Journal of parallel and distributed computing, 74(12):3202–3216, 2014.">Edwards <em>et al.</em>, 2014</a>]</span>.
+You can also add prefix and suffix <span id="id5">[see <a class="reference internal" href="9-references.html#id6" title="William Strunk, Jr. and E. B. White. The Elements of Style. Macmillan, third edition, 1979.">Strunk and White, 1979</a>, fig 1]</span>.
+Also see :cite:<code class="docutils literal notranslate"><span class="pre">ma2024unconditionally</span></code>, :cite:<code class="docutils literal notranslate"><span class="pre">edwards2014kokkos</span></code>, :cite:<code class="docutils literal notranslate"><span class="pre">Strunk1979</span></code> for details.</p>
 </section>
 </section>
-<section id="id5">
-<h1>算例<a class="headerlink" href="#id5" title="Link to this heading">#</a></h1>
+<section id="id6">
+<h1>算例<a class="headerlink" href="#id6" title="Link to this heading">#</a></h1>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="tutorial/00_jupyter/index.html">Using PyVista in Jupyter</a><ul>
@@ -499,12 +512,12 @@ You can also add prefix and suffix <span id="id4">[see <a class="reference inter
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="tutorial/10_poroelasticity/a.html"
+       href="4-cardiac-perfusion.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">PyVista and VTK Together</p>
+        <p class="prev-next-title">心肌灌注</p>
       </div>
     </a>
     <a class="right-next"
@@ -534,9 +547,10 @@ You can also add prefix and suffix <span id="id4">[see <a class="reference inter
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">这是一个markdown文档</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sphinx-markdown">在 Sphinx 中加入 markdown 格式的支持，参考了下面的文献</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">加入参考文献</a></li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">算例</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">算例</a></li>
 </ul>
 
   </nav></div>
