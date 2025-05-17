@@ -142,39 +142,39 @@ html_use_smartypants = True
 #
 html_theme = "sphinx_book_theme"
 html_context = {
-    "github_user": "pyvista",
-    "github_repo": "pyvista-tutorial",
+    "github_user": "npuheart",
+    "github_repo": "tutorial",
     "github_version": "main",
     "doc_path": "doc",
 }
-html_logo = "./_static/pyvista_logo_sm.png"
+html_logo = "./_static/simcardiac_logo_sm.png"
 
 html_theme_options = {
     # 'default_mode': 'light',
     # 'google_analytics_id': '',
     "show_prev_next": True,
-    "github_url": "https://github.com/pyvista/pyvista-tutorial",
+    "github_url": "https://github.com/npuheart/tutorial",
     "icon_links": [
         {
             "name": "Support",
-            "url": "https://github.com/pyvista/pyvista/discussions",
+            "url": "https://github.com/npuheart/npuheart/discussions",
             "icon": "fa fa-comment fa-fw",
         },
         {
             "name": "Docs",
-            "url": "https://docs.pyvista.org/",
+            "url": "https://npuheart.github.io/tutorial/",
             "icon": "fa fa-book fa-fw",
         },
         {
             "name": "Contributing",
-            "url": "https://github.com/pyvista/pyvista/blob/main/CONTRIBUTING.rst",
+            "url": "https://github.com/npuheart/tutorial/blob/main/CONTRIBUTING.rst",
             "icon": "fa fa-gavel fa-fw",
         },
-        {
-            "name": "The Paper",
-            "url": "https://doi.org/10.21105/joss.01450",
-            "icon": "fa fa-file-text fa-fw",
-        },
+        # {
+        #     "name": "The Paper",
+        #     "url": "https://npuheart.github.io/tutorial/",
+        #     "icon": "fa fa-file-text fa-fw",
+        # },
     ],
     "navigation_with_keys": False,
     "show_navbar_depth": 1,
@@ -257,8 +257,8 @@ sphinx_gallery_conf = {
     "doc_module": "pyvista",
     "image_scrapers": (DynamicScraper(), "matplotlib"),
     "binder": {
-        "org": "pyvista",
-        "repo": "pyvista-tutorial",
+        "org": "npuheart",
+        "repo": "tutorial",
         "branch": "gh-pages",
         "binderhub_url": "https://mybinder.org",
         "dependencies": ["../../Dockerfile", "../../start"],
