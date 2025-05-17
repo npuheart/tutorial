@@ -18,6 +18,8 @@ bibliography:
 :maxdepth: 2
 :hidden:
 4-cardiac-perfusion/index
+4-cardiac-perfusion/coronary
+4-cardiac-perfusion/use
 tutorial/10_poroelasticity/index
 ```
 
