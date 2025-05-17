@@ -62,8 +62,8 @@ lint.select = ["ALL"]
 "tutorial/**" = [
   "ANN",
   "ARG",
-  "B015",    # https://github.com/pyvista/pyvista/pull/6014
-  "B018",    # https://github.com/pyvista/pyvista/pull/6019
+  "B015",    
+  "B018",    
   "D101",
   "D102",
   "D103",
