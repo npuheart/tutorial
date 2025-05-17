@@ -20,7 +20,7 @@
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="PyVista and VTK Together">
+    <div class="sphx-glr-thumbcontainer" tooltip="演示心肌灌注的代码">
 
 .. only:: html
 
@@ -31,7 +31,7 @@
 
 .. raw:: html
 
-      <div class="sphx-glr-thumbnail-title">PyVista and VTK Together</div>
+      <div class="sphx-glr-thumbnail-title">演示心肌灌注的代码</div>
     </div>
 
 

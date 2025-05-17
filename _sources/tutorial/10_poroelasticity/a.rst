@@ -18,7 +18,7 @@
 .. _sphx_glr_tutorial_10_poroelasticity_a.py:
 
 
-PyVista and VTK Together
+演示心肌灌注的代码
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. GENERATED FROM PYTHON SOURCE LINES 5-7

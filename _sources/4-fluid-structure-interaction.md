@@ -1,3 +1,7 @@
+---
+bibliography:
+  - references.bib
+---
 
 
 # 流固耦合
@@ -9,7 +13,6 @@
 [Cockett, 2022](https://doi.org/10.5281/zenodo.6476040)
 
 
-```{toctree}
-tutorial/10_poroelasticity/index
-```
+
+这里先不放教程
 

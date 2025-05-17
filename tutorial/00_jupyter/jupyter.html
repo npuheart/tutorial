@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Test out PyVista’s Jupyter Backend &#8212; PyVista Tutorial</title>
+    <title>Test out PyVista’s Jupyter Backend &#8212; SimCardiac Tutorial</title>
   
   
   
@@ -63,7 +63,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'tutorial/00_jupyter/jupyter';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="PyVista in Action" href="../05_action/index.html" />
+    <link rel="next" title="What is a Mesh?" href="../02_mesh/index.html" />
     <link rel="prev" title="Using PyVista in Jupyter" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -156,8 +156,8 @@
       
     
     
-    <img src="../../_static/pyvista_logo_sm.png" class="logo__image only-light" alt="PyVista Tutorial - Home"/>
-    <script>document.write(`<img src="../../_static/pyvista_logo_sm.png" class="logo__image only-dark" alt="PyVista Tutorial - Home"/>`);</script>
+    <img src="../../_static/pyvista_logo_sm.png" class="logo__image only-light" alt="SimCardiac Tutorial - Home"/>
+    <script>document.write(`<img src="../../_static/pyvista_logo_sm.png" class="logo__image only-dark" alt="SimCardiac Tutorial - Home"/>`);</script>
   
   
 </a></div>
@@ -257,30 +257,47 @@
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="../../3-tutorial.html">使用教程</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l2 current active has-children"><a class="reference internal" href="index.html">Using PyVista in Jupyter</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l3 current active"><a class="current reference internal" href="#">Test out PyVista’s Jupyter Backend</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="index.html">Using PyVista in Jupyter</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Test out PyVista’s Jupyter Backend</a></li>
 </ul>
 </details></li>
-<li class="toctree-l2"><a class="reference internal" href="../05_action/index.html">PyVista in Action</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../02_mesh/index.html">What is a Mesh?</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../02_mesh/a_lesson_mesh.html">Lesson Overview</a></li>
+
+
+
+
+<li class="toctree-l2 has-children"><a class="reference internal" href="../02_mesh/exercises/index.html">Do it yourself</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../02_mesh/exercises/b_create-point-cloud.html">Create Point Cloud</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../02_mesh/exercises/c_create-uniform-grid.html">Creating a Uniform Grid</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../02_mesh/exercises/d_create-tri-surface.html">Create Triangulated Surface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../02_mesh/exercises/e_read-file.html">Load and Plot from a File</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../4-fluid-structure-interaction.html">流固耦合</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../10_poroelasticity/index.html">一级标题</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l3"><a class="reference internal" href="../10_poroelasticity/a.html">PyVista and VTK Together</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../02_mesh/solutions/index.html">Solutions</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../02_mesh/solutions/b_create-point-cloud.html">Create Point Cloud</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../02_mesh/solutions/c_create-uniform-grid.html">Creating a Uniform Grid</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../02_mesh/solutions/d_create-tri-surface.html">Create Triangulated Surface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../02_mesh/solutions/e_read-file.html">Load and Plot from a File</a></li>
 </ul>
 </details></li>
 </ul>
 </details></li>
+<li class="toctree-l1"><a class="reference internal" href="../05_action/index.html">PyVista in Action</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../4-fluid-structure-interaction.html">流固耦合</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../4-cardiac-perfusion.html">心肌灌注</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../4-cardiac-perfusion/index.html">这里是心肌灌注的内容</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../4-cardiac-perfusion/install.html">这里讲怎么安装</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../4-cardiac-perfusion/use.html">这里讲怎么使用</a></li>
+</ul>
+</details></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../10_poroelasticity/index.html">一级标题</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l3"><a class="reference internal" href="../10_poroelasticity/a.html">PyVista and VTK Together</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10_poroelasticity/a.html">演示心肌灌注的代码</a></li>
 </ul>
 </details></li>
 </ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="../../5-markdown.html">这是一个markdown文档</a></li>
-
 <li class="toctree-l1"><a class="reference internal" href="../../9-references.html">参考文献</a></li>
 </ul>
 
@@ -513,7 +530,7 @@ Ignoring ``jupyter_backend``.
   <a target="_blank" href="https://colab.research.google.com/github/pyvista/pyvista-tutorial/blob/gh-pages/notebooks/tutorial/00_jupyter/jupyter.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/ width="150px">
   </a>
-</center><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 2.035 seconds)</p>
+</center><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 2.040 seconds)</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-tutorial-00-jupyter-jupyter-py">
 <div class="binder-badge docutils container">
 <a class="reference external image-reference" href="https://mybinder.org/v2/gh/pyvista/pyvista-tutorial/gh-pages?urlpath=lab/tree/notebooks/tutorial/00_jupyter/jupyter.ipynb"><img alt="Launch binder" src="../../_images/binder_badge_logo.svg" style="width: 150px;" />
@@ -553,11 +570,11 @@ Ignoring ``jupyter_backend``.
       </div>
     </a>
     <a class="right-next"
-       href="../05_action/index.html"
+       href="../02_mesh/index.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">PyVista in Action</p>
+        <p class="prev-next-title">What is a Mesh?</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -577,7 +594,7 @@ Ignoring ``jupyter_backend``.
   <div class="footer-item">
     
 <p class="component-author">
-By PyVista Developers
+By Ma Pengfei, Wang Xuan
 </p>
 
   </div>
@@ -587,7 +604,7 @@ By PyVista Developers
 
   <p class="copyright">
     
-      © Copyright 2022, PyVista Developers.
+      © Copyright 2025, SimCardiac Developers.
       <br/>
     
   </p>

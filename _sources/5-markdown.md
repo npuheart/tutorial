@@ -4,6 +4,8 @@ bibliography:
 ---
 
 # 这是一个markdown文档
+讲如何生成这样一个网站
+
 
 
 ## 在 Sphinx 中加入 markdown 格式的支持，参考了下面的文献
@@ -22,11 +24,4 @@ You can also use a narrative citation with {cite:p}`edwards2014kokkos`.
 You can also add prefix and suffix {cite:p}`{see}Strunk1979{fig 1}`.
 Also see :cite:`ma2024unconditionally`, :cite:`edwards2014kokkos`, :cite:`Strunk1979` for details.
 
-
-# 算例
-```{toctree}
-tutorial/00_jupyter/index
-tutorial/05_action/index
-tutorial/10_poroelasticity/index
-```
 
