@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:26.090** total execution time for 11 files **from all galleries**:
+**00:22.696** total execution time for 11 files **from all galleries**:
 
 .. container::
 
@@ -32,23 +32,23 @@ Computation times
    * - Example
      - Time
      - Mem (MB)
+   * - :ref:`sphx_glr_tutorial_02_mesh_solutions_c_create-uniform-grid.py` (``../../tutorial/02_mesh/solutions/c_create-uniform-grid.py``)
+     - 00:05.968
+     - 0.0
    * - :ref:`sphx_glr_tutorial_02_mesh_solutions_e_read-file.py` (``../../tutorial/02_mesh/solutions/e_read-file.py``)
-     - 00:06.941
+     - 00:05.872
      - 0.0
    * - :ref:`sphx_glr_tutorial_02_mesh_solutions_b_create-point-cloud.py` (``../../tutorial/02_mesh/solutions/b_create-point-cloud.py``)
-     - 00:06.337
-     - 0.0
-   * - :ref:`sphx_glr_tutorial_02_mesh_solutions_c_create-uniform-grid.py` (``../../tutorial/02_mesh/solutions/c_create-uniform-grid.py``)
-     - 00:05.926
+     - 00:04.023
      - 0.0
    * - :ref:`sphx_glr_tutorial_02_mesh_a_lesson_mesh.py` (``../../tutorial/02_mesh/a_lesson_mesh.py``)
-     - 00:03.778
+     - 00:03.715
      - 0.0
    * - :ref:`sphx_glr_tutorial_00_jupyter_jupyter.py` (``../../tutorial/00_jupyter/jupyter.py``)
-     - 00:02.053
+     - 00:02.057
      - 0.0
    * - :ref:`sphx_glr_tutorial_02_mesh_solutions_d_create-tri-surface.py` (``../../tutorial/02_mesh/solutions/d_create-tri-surface.py``)
-     - 00:01.055
+     - 00:01.060
      - 0.0
    * - :ref:`sphx_glr_tutorial_10_poroelasticity_a.py` (``../../tutorial/10_poroelasticity/a.py``)
      - 00:00.000

@@ -181,7 +181,7 @@ added unwanted triangles. We can mitigate that with the ``alpha`` parameter.
     .. container:: binder-badge
 
       .. image:: images/binder_badge_logo.svg
-        :target: https://mybinder.org/v2/gh/pyvista/pyvista-tutorial/gh-pages?urlpath=lab/tree/notebooks/tutorial/02_mesh/exercises/d_create-tri-surface.ipynb
+        :target: https://mybinder.org/v2/gh/npuheart/tutorial/gh-pages?urlpath=lab/tree/notebooks/tutorial/02_mesh/exercises/d_create-tri-surface.ipynb
         :alt: Launch binder
         :width: 150 px
 

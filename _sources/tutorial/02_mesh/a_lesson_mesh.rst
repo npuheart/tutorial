@@ -65,11 +65,11 @@ You can create one by defining a 2D array of Cartesian coordinates like so:
  .. code-block:: none
 
 
-    array([[0.55127204, 0.50106419, 0.47132319],
-           [0.87766158, 0.51361248, 0.28083739],
-           [0.73478483, 0.02207176, 0.11759556],
-           [0.85035303, 0.79875724, 0.20624877],
-           [0.54294007, 0.63332286, 0.69907012]])
+    array([[0.47191902, 0.03605592, 0.52890809],
+           [0.64760353, 0.95445322, 0.1023863 ],
+           [0.6783666 , 0.90768187, 0.23603115],
+           [0.33995557, 0.22440216, 0.59630963],
+           [0.73888686, 0.08939442, 0.20607932]])
 
 
 
@@ -98,9 +98,9 @@ Pass numpy array of points (n by 3) to PolyData
     <tr><td>N Cells</td><td>100</td></tr>
     <tr><td>N Points</td><td>100</td></tr>
     <tr><td>N Strips</td><td>0</td></tr>
-    <tr><td>X Bounds</td><td>1.451e-02, 9.906e-01</td></tr>
-    <tr><td>Y Bounds</td><td>3.991e-03, 9.977e-01</td></tr>
-    <tr><td>Z Bounds</td><td>2.104e-04, 9.909e-01</td></tr>
+    <tr><td>X Bounds</td><td>4.934e-04, 9.877e-01</td></tr>
+    <tr><td>Y Bounds</td><td>2.329e-02, 9.840e-01</td></tr>
+    <tr><td>Z Bounds</td><td>9.165e-03, 9.979e-01</td></tr>
     <tr><td>N Arrays</td><td>0</td></tr>
     </table>
 
@@ -591,7 +591,7 @@ Note how this varies from assigning scalars to each point
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 3.778 seconds)
+   **Total running time of the script:** (0 minutes 3.715 seconds)
 
 
 .. _sphx_glr_download_tutorial_02_mesh_a_lesson_mesh.py:
@@ -603,7 +603,7 @@ Note how this varies from assigning scalars to each point
     .. container:: binder-badge
 
       .. image:: images/binder_badge_logo.svg
-        :target: https://mybinder.org/v2/gh/pyvista/pyvista-tutorial/gh-pages?urlpath=lab/tree/notebooks/tutorial/02_mesh/a_lesson_mesh.ipynb
+        :target: https://mybinder.org/v2/gh/npuheart/tutorial/gh-pages?urlpath=lab/tree/notebooks/tutorial/02_mesh/a_lesson_mesh.ipynb
         :alt: Launch binder
         :width: 150 px
 

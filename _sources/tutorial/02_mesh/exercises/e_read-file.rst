@@ -218,7 +218,7 @@ https://github.com/pyvista/pyvista-tutorial/raw/main/tutorial/02_mesh/scipy.vtk
     .. container:: binder-badge
 
       .. image:: images/binder_badge_logo.svg
-        :target: https://mybinder.org/v2/gh/pyvista/pyvista-tutorial/gh-pages?urlpath=lab/tree/notebooks/tutorial/02_mesh/exercises/e_read-file.ipynb
+        :target: https://mybinder.org/v2/gh/npuheart/tutorial/gh-pages?urlpath=lab/tree/notebooks/tutorial/02_mesh/exercises/e_read-file.ipynb
         :alt: Launch binder
         :width: 150 px
 

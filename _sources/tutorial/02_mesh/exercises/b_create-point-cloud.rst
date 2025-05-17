@@ -238,7 +238,7 @@ for more details).
     .. container:: binder-badge
 
       .. image:: images/binder_badge_logo.svg
-        :target: https://mybinder.org/v2/gh/pyvista/pyvista-tutorial/gh-pages?urlpath=lab/tree/notebooks/tutorial/02_mesh/exercises/b_create-point-cloud.ipynb
+        :target: https://mybinder.org/v2/gh/npuheart/tutorial/gh-pages?urlpath=lab/tree/notebooks/tutorial/02_mesh/exercises/b_create-point-cloud.ipynb
         :alt: Launch binder
         :width: 150 px
 

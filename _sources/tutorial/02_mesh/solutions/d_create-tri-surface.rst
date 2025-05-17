@@ -76,11 +76,11 @@ First, create some points for the surface.
  .. code-block:: none
 
 
-    array([[-202.05441495, -203.6228449 ,    1.63355351],
-           [-176.62086213, -203.6228449 ,    2.64404672],
-           [-154.9775913 , -203.6228449 ,    3.78541055],
-           [-139.28539157, -203.6228449 ,    4.76852018],
-           [-116.29080558, -203.6228449 ,    6.397322  ]])
+    array([[-200.32137264, -199.53000903,    1.83698629],
+           [-176.1640526 , -199.53000903,    2.89466761],
+           [-160.04951359, -199.53000903,    3.795312  ],
+           [-133.07626707, -199.53000903,    5.63554758],
+           [-115.78948593, -199.53000903,    6.98803016]])
 
 
 
@@ -322,8 +322,8 @@ Clean Edges & Triangulations
     <tr><td>N Cells</td><td>100</td></tr>
     <tr><td>N Points</td><td>100</td></tr>
     <tr><td>N Strips</td><td>0</td></tr>
-    <tr><td>X Bounds</td><td>2.094e-02, 9.258e+00</td></tr>
-    <tr><td>Y Bounds</td><td>9.042e-03, 9.275e+00</td></tr>
+    <tr><td>X Bounds</td><td>4.705e-03, 9.283e+00</td></tr>
+    <tr><td>Y Bounds</td><td>7.605e-02, 9.275e+00</td></tr>
     <tr><td>Z Bounds</td><td>0.000e+00, 0.000e+00</td></tr>
     <tr><td>N Arrays</td><td>0</td></tr>
     </table>
@@ -477,7 +477,7 @@ added unwanted triangles. We can mitigate that with the ``alpha`` parameter.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 1.055 seconds)
+   **Total running time of the script:** (0 minutes 1.060 seconds)
 
 
 .. _sphx_glr_download_tutorial_02_mesh_solutions_d_create-tri-surface.py:
@@ -489,7 +489,7 @@ added unwanted triangles. We can mitigate that with the ``alpha`` parameter.
     .. container:: binder-badge
 
       .. image:: images/binder_badge_logo.svg
-        :target: https://mybinder.org/v2/gh/pyvista/pyvista-tutorial/gh-pages?urlpath=lab/tree/notebooks/tutorial/02_mesh/solutions/d_create-tri-surface.ipynb
+        :target: https://mybinder.org/v2/gh/npuheart/tutorial/gh-pages?urlpath=lab/tree/notebooks/tutorial/02_mesh/solutions/d_create-tri-surface.ipynb
         :alt: Launch binder
         :width: 150 px
 

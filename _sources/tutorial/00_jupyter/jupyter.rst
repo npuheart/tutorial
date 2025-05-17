@@ -208,7 +208,7 @@ Server-side rendering only
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 2.053 seconds)
+   **Total running time of the script:** (0 minutes 2.057 seconds)
 
 
 .. _sphx_glr_download_tutorial_00_jupyter_jupyter.py:
@@ -220,7 +220,7 @@ Server-side rendering only
     .. container:: binder-badge
 
       .. image:: images/binder_badge_logo.svg
-        :target: https://mybinder.org/v2/gh/pyvista/pyvista-tutorial/gh-pages?urlpath=lab/tree/notebooks/tutorial/00_jupyter/jupyter.ipynb
+        :target: https://mybinder.org/v2/gh/npuheart/tutorial/gh-pages?urlpath=lab/tree/notebooks/tutorial/00_jupyter/jupyter.ipynb
         :alt: Launch binder
         :width: 150 px
 
