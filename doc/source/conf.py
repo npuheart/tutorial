@@ -84,6 +84,22 @@ source_suffix = {
     '.md': 'markdown',
 }
 
+myst_enable_extensions = [
+    "amsmath",
+    "attrs_inline",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "fieldlist",
+    "html_admonition",
+    "html_image",
+    "linkify",
+    "replacements",
+    "smartquotes",
+    "strikethrough",
+    "substitution",
+    "tasklist",
+]
 
 bibtex_bibfiles = ['references.bib']
 bibtex_reference_style = "author_year"
