@@ -10,4 +10,3 @@ Also see :cite:`ma2024unconditionally`, :cite:`edwards2014kokkos`, :cite:`Strunk
 
 
 .. bibliography::
-   .. :all:
