@@ -257,7 +257,7 @@
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="../../../3-tutorial.html">这个纯粹是pyvista的使用教程</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../../../3-tutorial.html">开始使用</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../00_jupyter/index.html">Using PyVista in Jupyter</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../00_jupyter/jupyter.html">Test out PyVista’s Jupyter Backend</a></li>
 </ul>
@@ -279,8 +279,8 @@
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../../4-cardiac-perfusion.html">心肌灌注</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../4-cardiac-perfusion/index.html">这里是心肌灌注的内容</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../4-cardiac-perfusion/coronary.html">冠状动脉模型</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../4-cardiac-perfusion/use.html">这里讲怎么使用</a></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../../10_poroelasticity/index.html">一级标题</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../4-cardiac-perfusion/use.html">多孔弹性模型</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../10_poroelasticity/index.html">算例</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../10_poroelasticity/a.html">演示心肌灌注的代码</a></li>
 </ul>
 </details></li>
@@ -472,11 +472,11 @@ locations.</p>
 <a href="https://numpy.org/devdocs/reference/generated/numpy.ndarray.html#numpy.ndarray" title="numpy.ndarray" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">points</span></a><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">,</span> <span class="p">:]</span>
 </pre></div>
 </div>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>pyvista_ndarray([[4.81043875e+05, 4.40017620e+06, 1.75980005e+03],
-                 [4.81067875e+05, 4.40009460e+06, 1.76139001e+03],
-                 [4.81007475e+05, 4.40016520e+06, 1.76046997e+03],
-                 [4.80988975e+05, 4.40024420e+06, 1.75764001e+03],
-                 [4.81054275e+05, 4.40021460e+06, 1.75825000e+03]])
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>pyvista_ndarray([[4.81049675e+05, 4.40010140e+06, 1.76146997e+03],
+                 [4.81002875e+05, 4.40008840e+06, 1.76835999e+03],
+                 [4.81061775e+05, 4.40017400e+06, 1.75958997e+03],
+                 [4.81064675e+05, 4.40024700e+06, 1.75693994e+03],
+                 [4.81089875e+05, 4.40022430e+06, 1.76954004e+03]])
 </pre></div>
 </div>
 <p>Now that you have a NumPy array of points/vertices either from our sample
@@ -494,7 +494,7 @@ data or your own project, create a PyVista mesh using those points.</p>
 <tr><td>N Strips</td><td>0</td></tr>
 <tr><td>X Bounds</td><td>4.809e+05, 4.811e+05</td></tr>
 <tr><td>Y Bounds</td><td>4.400e+06, 4.400e+06</td></tr>
-<tr><td>Z Bounds</td><td>1.754e+03, 1.784e+03</td></tr>
+<tr><td>Z Bounds</td><td>1.754e+03, 1.787e+03</td></tr>
 <tr><td>N Arrays</td><td>0</td></tr>
 </table>
 
@@ -588,11 +588,11 @@ and add those vectors to the mesh.</p>
 <a href="https://docs.pyvista.org/api/utilities/_autosummary/pyvista.pyvista_ndarray.html#pyvista.pyvista_ndarray" title="pyvista.pyvista_ndarray" class="sphx-glr-backref-module-pyvista sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">vectors</span></a><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">,</span> <span class="p">:]</span>
 </pre></div>
 </div>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>pyvista_ndarray([[-0.78018692, -0.4714227 ,  0.41118002],
-                 [ 0.46342387,  0.83717719, -0.29046973],
-                 [-0.55753243,  0.74659958, -0.36296921],
-                 [-0.688773  , -0.55718775,  0.46382492],
-                 [-0.0588264 ,  0.91254485,  0.40472379]])
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>pyvista_ndarray([[-0.28631207, -0.9212654 , -0.26324031],
+                 [ 0.55242832, -0.74318907,  0.37748239],
+                 [-0.3299015 ,  0.76128173,  0.55822498],
+                 [ 0.13207906, -0.651156  , -0.74736269],
+                 [ 0.42199394, -0.89910054, -0.11635863]])
 </pre></div>
 </div>
 <p>Add the vector array as point data to the new mesh:</p>
@@ -634,7 +634,7 @@ Interactive Scene</label><div class="sd-tab-content docutils">
   <a target="_blank" href="https://colab.research.google.com/github/pyvista/pyvista-tutorial/blob/gh-pages/notebooks/tutorial/02_mesh/solutions/b_create-point-cloud.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/ width="150px">
   </a>
-</center><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 5.673 seconds)</p>
+</center><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 6.337 seconds)</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-tutorial-02-mesh-solutions-b-create-point-cloud-py">
 <div class="binder-badge docutils container">
 <a class="reference external image-reference" href="https://mybinder.org/v2/gh/pyvista/pyvista-tutorial/gh-pages?urlpath=lab/tree/notebooks/tutorial/02_mesh/solutions/b_create-point-cloud.ipynb"><img alt="Launch binder" src="../../../_images/binder_badge_logo3.svg" style="width: 150px;" />
