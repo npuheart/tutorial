@@ -1,6 +1,6 @@
 [project]
 dynamic = ['version']
-name = "pyvista-tutorial"
+name = "simcardiac-tutorial"
 requires-python = '>=3.9'
 
 [project.optional-dependencies]

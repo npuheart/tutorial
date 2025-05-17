@@ -42,9 +42,9 @@ os.environ["PYVISTA_BUILDING_GALLERY"] = "true"
 
 # -- Project information -----------------------------------------------------
 
-project = "PyVista Tutorial"
-copyright = "2022, PyVista Developers"  # noqa: A001
-author = "PyVista Developers"
+project = "SimCardiac Tutorial"
+copyright = "2025, SimCardiac Developers"  # noqa: A001
+author = "Ma Pengfei, Wang Xuan"
 
 
 # -- General configuration ---------------------------------------------------
@@ -209,7 +209,7 @@ tutorial_dirs = [
     # "../../tutorial/00_intro/",
     "../../tutorial/00_jupyter/",
     # "../../tutorial/01_basic/",
-    # "../../tutorial/02_mesh/",
+    "../../tutorial/02_mesh/",
     # "../../tutorial/03_figures/",
     # "../../tutorial/04_filters/",
     "../../tutorial/05_action/",
