@@ -257,37 +257,28 @@
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../00_jupyter/index.html">Using PyVista in Jupyter</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../00_jupyter/jupyter.html">Test out PyVista’s Jupyter Backend</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../../../3-tutorial.html">这个纯粹是pyvista的使用教程</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../00_jupyter/index.html">Using PyVista in Jupyter</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../00_jupyter/jupyter.html">Test out PyVista’s Jupyter Backend</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="../index.html">What is a Mesh?</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../a_lesson_mesh.html">Lesson Overview</a></li>
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="../index.html">What is a Mesh?</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../a_lesson_mesh.html">Lesson Overview</a></li>
 
 
 
 
-<li class="toctree-l2 has-children"><a class="reference internal" href="../exercises/index.html">Do it yourself</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l3"><a class="reference internal" href="../exercises/b_create-point-cloud.html">Create Point Cloud</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../exercises/c_create-uniform-grid.html">Creating a Uniform Grid</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../exercises/d_create-tri-surface.html">Create Triangulated Surface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../exercises/e_read-file.html">Load and Plot from a File</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../exercises/index.html">Do it yourself</a></li>
+<li class="toctree-l3 current active"><a class="reference internal" href="index.html">Solutions</a></li>
 </ul>
 </details></li>
-<li class="toctree-l2 current active has-children"><a class="reference internal" href="index.html">Solutions</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="b_create-point-cloud.html">Create Point Cloud</a></li>
-<li class="toctree-l3"><a class="reference internal" href="c_create-uniform-grid.html">Creating a Uniform Grid</a></li>
-<li class="toctree-l3 current active"><a class="current reference internal" href="#">Create Triangulated Surface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="e_read-file.html">Load and Plot from a File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../05_action/index.html">PyVista in Action</a></li>
 </ul>
 </details></li>
-</ul>
-</details></li>
-<li class="toctree-l1"><a class="reference internal" href="../../05_action/index.html">PyVista in Action</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../4-fluid-structure-interaction.html">流固耦合</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../../4-cardiac-perfusion.html">心肌灌注</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../../../4-cardiac-perfusion/index.html">这里是心肌灌注的内容</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../../4-cardiac-perfusion/install.html">这里讲怎么安装</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../4-cardiac-perfusion/coronary.html">冠状动脉模型</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../4-cardiac-perfusion/use.html">这里讲怎么使用</a></li>
 </ul>
 </details></li>
@@ -492,11 +483,11 @@ to download the full example code. or to run this example in your browser via Bi
 <a href="https://numpy.org/devdocs/reference/generated/numpy.ndarray.html#numpy.ndarray" title="numpy.ndarray" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">points</span></a><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">,</span> <span class="p">:]</span>
 </pre></div>
 </div>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>array([[-198.12891258, -196.52561059,    2.03663942],
-       [-178.46085815, -196.52561059,    2.94951429],
-       [-160.5264965 , -196.52561059,    3.99728988],
-       [-135.16982052, -196.52561059,    5.81540474],
-       [-116.61191517, -196.52561059,    7.34586425]])
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>array([[-201.55852646, -199.05357373,    1.80897782],
+       [-176.68401771, -199.05357373,    2.89559848],
+       [-162.29431579, -199.05357373,    3.69537367],
+       [-133.19593797, -199.05357373,    5.68025446],
+       [-118.02795457, -199.05357373,    6.87247307]])
 </pre></div>
 </div>
 <p>Now use those points to create a point cloud PyVista data object. This will
@@ -648,8 +639,8 @@ Interactive Scene</label><div class="sd-tab-content docutils">
 <tr><td>N Cells</td><td>100</td></tr>
 <tr><td>N Points</td><td>100</td></tr>
 <tr><td>N Strips</td><td>0</td></tr>
-<tr><td>X Bounds</td><td>1.022e-02, 9.242e+00</td></tr>
-<tr><td>Y Bounds</td><td>7.478e-02, 9.232e+00</td></tr>
+<tr><td>X Bounds</td><td>1.384e-02, 9.251e+00</td></tr>
+<tr><td>Y Bounds</td><td>2.320e-02, 9.273e+00</td></tr>
 <tr><td>Z Bounds</td><td>0.000e+00, 0.000e+00</td></tr>
 <tr><td>N Arrays</td><td>0</td></tr>
 </table>
@@ -711,7 +702,7 @@ Interactive Scene</label><div class="sd-tab-content docutils">
   <a target="_blank" href="https://colab.research.google.com/github/pyvista/pyvista-tutorial/blob/gh-pages/notebooks/tutorial/02_mesh/solutions/d_create-tri-surface.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/ width="150px">
   </a>
-</center><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 1.060 seconds)</p>
+</center><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 1.074 seconds)</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-tutorial-02-mesh-solutions-d-create-tri-surface-py">
 <div class="binder-badge docutils container">
 <a class="reference external image-reference" href="https://mybinder.org/v2/gh/pyvista/pyvista-tutorial/gh-pages?urlpath=lab/tree/notebooks/tutorial/02_mesh/solutions/d_create-tri-surface.ipynb"><img alt="Launch binder" src="../../../_images/binder_badge_logo3.svg" style="width: 150px;" />

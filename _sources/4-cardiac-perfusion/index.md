@@ -7,7 +7,7 @@
 :maxdepth: 2
 :hidden:
 
-install
+coronary
 use
 ```
 
