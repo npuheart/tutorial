@@ -48,6 +48,7 @@ docs = [
   'vtk<9.5',
   'myst-parser',
   'sphinxcontrib-bibtex',
+  'linkify-it-py',
 ]
 
 [tool.ruff]
