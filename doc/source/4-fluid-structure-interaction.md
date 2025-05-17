@@ -1,3 +1,7 @@
+---
+bibliography:
+  - references.bib
+---
 
 
 # 流固耦合

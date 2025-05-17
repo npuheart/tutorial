@@ -1,3 +1,7 @@
+---
+bibliography:
+  - references.bib
+---
 
 # 心肌灌注
 
