@@ -1,9 +1,8 @@
 目录
 ================
 
+
 .. toctree::
-   :maxdepth: 2
-   :hidden:
 
    3-tutorial
    4-fluid-structure-interaction
