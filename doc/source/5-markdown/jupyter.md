@@ -36,7 +36,7 @@ sudo journalctl -u manyservices.service -n 100
 ssh fenics@localhost "export DISPLAY=:99.0 && source ~/pyvenv/bin/activate && jupyter notebook --port=9202 --ip=0.0.0.0 --notebook-dir=/home/fenics/jupyter"
 ```
 
-```toml
+```ini
 [Unit]
 Description=many services
 After=network.target syslog.target
