@@ -7,7 +7,7 @@ bibliography:
 ```{toctree}
 :maxdepth: 2
 :hidden:
-doc/source/5-markdown/jupyter.md
+5-markdown/jupyter.md
 ```
 
 
