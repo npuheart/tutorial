@@ -4,12 +4,6 @@ bibliography:
 ---
 
 
-```{toctree}
-:maxdepth: 2
-:hidden:
-5-markdown/jupyter.md
-```
-
 
 
 # 文档撰写
@@ -34,3 +28,9 @@ You can also add prefix and suffix {cite:p}`{see}Strunk1979{fig 1}`.
 Also see :cite:`ma2024unconditionally`, :cite:`edwards2014kokkos`, :cite:`Strunk1979` for details.
 
 
+
+```{toctree}
+:maxdepth: 2
+:hidden:
+5-markdown/jupyter.md
+```

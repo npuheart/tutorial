@@ -11,7 +11,8 @@ jupyter notebook password
 jupyter notebook --port=9202 --ip=0.0.0.0
 ```
 
-然后设置外网访问[^1][^2]。
+然后设置外网访问[^1][^2], 需要注意的是打开websocket才能执行代码，否则只能写代码。
+![image-20250518173009001](https://githubimages.pengfeima.cn/images/202505181730334.png)
 
 ### 运行pyvista
 
