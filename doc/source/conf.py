@@ -10,9 +10,9 @@ from atsphinx.mini18n import get_template_dir
 faulthandler.enable()
 
 sys.path.insert(0, str(Path(__file__).absolute().parent))
-# import make_external_gallery  # noqa: E402
+import make_external_gallery  # noqa: E402
 
-# make_external_gallery.make_example_gallery()
+make_external_gallery.make_example_gallery()
 
 # -- PyVista configuration ---------------------------------------------------
 import pyvista  # noqa: E402
@@ -228,7 +228,7 @@ tutorial_dirs = [
     "../../tutorial/02_mesh/",
     # "../../tutorial/03_figures/",
     # "../../tutorial/04_filters/",
-    "../../tutorial/05_action/",
+    # "../../tutorial/05_action/",
     # "../../tutorial/06_vtk/",
     # '../../tutorial/07_sphinx/',
     # "../../tutorial/08_widgets/",
