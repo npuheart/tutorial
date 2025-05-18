@@ -3,6 +3,15 @@ bibliography:
   - references.bib
 ---
 
+
+```{toctree}
+:maxdepth: 2
+:hidden:
+doc/source/5-markdown/jupyter.md
+```
+
+
+
 # 文档撰写
 讲如何生成这样一个网站
 
